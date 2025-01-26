@@ -28,8 +28,9 @@ def summarize_text(text):
     return summary[0]['summary_text']
 
 # Streamlit UI
-st.title("AI Study Assistant")
+st.title("Solo GPT")
 
+st.write("Welcome to Solo GPT! This app is a Study Assistant. You can chat with the Study Assistant, ask specific questions, and summarize your notes.")
 # Chatbot interaction
 st.subheader("1. Chat with Study Assistant")
 user_query = st.text_input("Ask me anything:")
